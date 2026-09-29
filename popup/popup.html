@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhishShield Pro</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <span class="shield-icon">🛡️</span>
+          <h1>PhishShield Pro</h1>
+        </div>
+        <span id="status-badge" class="badge">Analisando...</span>
+      </header>
+
+      <main>
+        <div class="score-card">
+          <span class="score-label">Pontuação de Risco</span>
+          <div id="score-value" class="score-display">--</div>
+        </div>
+
+        <div class="flags-section">
+          <h2>Análise do Domínio e DOM:</h2>
+          <ul id="flags-list" class="flags-list"></ul>
+        </div>
+      </main>
+
+      <footer>
+        <span>Proteção em tempo real ativa</span>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
