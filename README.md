@@ -34,7 +34,7 @@ phish-shield/
 
 ## Visão Geral
 
-O PhishShield Pro monitora e analisa a segurança da navegação do usuário sem depender exclusivamente de blacklists estáticas ou APIs de terceiros. A extensão combina processamento assíncrono no Service Worker com inspeção no contexto da página para gerar um Score de Risco (0-100) em tempo real.
+O PhishShield monitora e analisa a segurança da navegação do usuário sem depender exclusivamente de blacklists estáticas ou APIs de terceiros. A extensão combina processamento assíncrono com inspeção no contexto da página para gerar um Score de Risco (0-100) em tempo real.
 
 O repositório inclui também o utilitário generate_icons.py, que automatiza a criação dos ativos visuais e ícones PNG necessários para o funcionamento do Manifest V3 no Chrome.
 
