@@ -1,7 +1,3 @@
-/**
- * Módulo de Heurística de URLs para Detecção de Phishing
- */
-
 const TARGET_DOMAINS = [
   "google.com",
   "facebook.com",
